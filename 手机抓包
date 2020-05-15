@@ -1,0 +1,24 @@
+pip install mitmproxy
+
+开启抓包：
+
+mitmweb
+mitmdump
+
+配置浏览器和手机
+1.电脑和手机连接到同一个wifi环境下
+2.修改浏览器代理服务器地址为运行mitmproxy的那台机器（本机）ip地址，端口设定为你启动mitmproxy时设定的端口，如果没有指定就使用8080
+3.手机做同样操作，修改wifi链接代理为 【手动】，然后指定ip地址和端口
+以手机配置为例：
+设置服务器、端口
+
+安装CA证书（https抓包用）
+
+C:\Users\24332\.mitmproxy
+
+
+电脑安装：
+mitmproxy-ca.p12
+
+手机安装：
+mitmproxy-ca-cert.pem
