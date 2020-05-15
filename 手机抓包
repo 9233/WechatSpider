@@ -22,3 +22,9 @@ mitmproxy-ca.p12
 
 手机安装：
 mitmproxy-ca-cert.pem
+
+
+参考：
+https://blog.wolfogre.com/posts/usage-of-mitmproxy/
+https://www.jianshu.com/p/f6af1d57186e
+https://blog.csdn.net/freeking101/article/details/83901842
